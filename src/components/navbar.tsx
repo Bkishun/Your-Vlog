@@ -8,13 +8,15 @@ export const Navbar = () => {
     const[user] = useAuthState(auth);
 
     return (
-        <div>
-            <Link to="/">Home</Link>
-            <Link to="/login">Login</Link>
+        <div className="navbar">
+            <div className="links">
+                <Link to="/">Home</Link>
+                <Link to="/login">Login</Link>
+            </div>
 
-            <div>
+            <div className="user">
                 <p>{user?.displayName}</p>
-                <img src ={user?.photoURL || ""}/>
+                <img src ={user?.photoURL || ""} width="20" height="20"/>
             </div>
         </div>
     );
