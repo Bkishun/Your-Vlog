@@ -88,3 +88,65 @@ textarea{
   cursor: pointer;
 }
 
+.post{
+  margin: 20px 10px;
+  width: 320px;
+  height: 250px;
+  border: 5px solid slateblue;
+  border-radius: 7px;
+  background-color: white;
+  backdrop-filter: blur(5px);
+  overflow: hidden;
+  display: inline-block;
+}
+.title{
+  text-align: center;
+  justify-content: center;
+  height: 40px;
+  width: 320px;
+  background-color: slateblue;
+  padding: 15px;
+  padding-bottom: 35px;
+}
+.footer{
+  display: flex;
+  height:40px;
+  width: 320px;
+  padding: 10px;
+  padding-top: 3px ;
+  padding-bottom: 15px;
+  background-color: slateblue;
+}
+.postBody{
+  height: 97px;
+  background-color: rgb(185, 179, 162);
+  padding: 10px 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  
+}
+.like{
+  margin: auto ;
+  margin-right: 0;
+  height: 25px;
+}
+.likecount{
+  margin: auto;
+  margin-left: 5px;
+  color: rgb(225, 143, 19);
+  font-weight:700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 23px;
+}
+
+.logout{
+  border: 2px solid white;
+  /* color: slateblue; */
+  background-color: red;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.main{
+  background-color:rgb(50, 45, 45);
+}
